@@ -1,0 +1,31 @@
+name: Idea or improvement
+description: Suggest a change to the kit
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The kit is deliberately small. Changes that keep it small are the easiest to accept. See CONTRIBUTING.md for what usually gets declined.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you hitting
+      description: Describe the situation, not the solution. What went wrong or felt wrong when you used it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would change
+    validations:
+      required: true
+
+  - type: textarea
+    id: tradeoff
+    attributes:
+      label: What it costs
+      description: More questions in the interview, more files in the scaffold, more for a user to read? Say so honestly.
+    validations:
+      required: false

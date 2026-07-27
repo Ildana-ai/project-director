@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in the kit produced a wrong or broken result
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This kit is instructions for an AI agent, so the most useful reports say which agent and model you ran, and what it actually did.
+
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and model
+      description: Which AI coding agent, and which model was driving it
+      placeholder: Claude Code, Sonnet 5
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What the agent actually did
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Where in the process it went wrong. Which question, or which build step.
+      placeholder: |
+        1. Said "Run START.md"
+        2. Answered question 5 with ...
+        3. At the build step it ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Output, error text, or a screenshot. Remove anything private first.
+    validations:
+      required: false

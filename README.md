@@ -72,6 +72,10 @@ Re-run `START.md` any time you want another project. The kit only ever creates; 
 - `MAP.md`, the structure it builds and what every file is for.
 - `DIRECTOR.md`, the charter template that becomes the new repo's `CLAUDE.md`.
 
+## Contributing
+
+Issues and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first, it says plainly what usually gets accepted and what usually gets declined. Found a security problem? [SECURITY.md](SECURITY.md), and please do not open a public issue.
+
 ## License
 
 MIT. Use it, fork it, ship things with it.
