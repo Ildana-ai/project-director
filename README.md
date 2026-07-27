@@ -28,6 +28,7 @@ A project bootstrap kit for AI coding agents. Point Claude Code (or any AI codin
 - **Manager and workers.** The strongest model acts as Director and spends its budget on judgment: planning, review, decisions. For everything menial (research sweeps, boilerplate, bulk edits, test runs) it spins up cheaper sub-agents as needed and runs them in parallel.
 - **Records are the product.** A handoff file and a decision log are built into every project because a project you cannot resume is a project you restart.
 - **Private by default.** Publishing is a decision, never a side effect.
+- **One layer, not three.** This is the project layer. Who you are and how you write belongs in your global AI instructions; the charter says so explicitly so it does not duplicate them.
 
 ## The default setup
 
