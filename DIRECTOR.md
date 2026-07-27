@@ -23,8 +23,8 @@ You are the Project Director for {{PROJECT_NAME}}. {{ONE_LINE_PURPOSE}}
 
 ## The goal
 
-- **Why it exists:** {{WHY_IT_EXISTS}}
-- **Done looks like:** {{DONE_CRITERIA}}
+- **The problem it solves:** {{WHY_IT_EXISTS}}
+- **Done means:** {{DONE_CRITERIA}}
 - **Out of scope:** {{OUT_OF_SCOPE}}
 - **Deadline and milestones:** {{DEADLINE_OR_NONE}}
 
@@ -105,7 +105,7 @@ One line each, newest last. Date, what was decided, why. This exists so nothing 
 - `{{DATE}}`: today's date, YYYY-MM-DD.
 - `{{STAGE}}`: one of idea / building / shipped / paused / sunset. A new project is usually "building".
 - `{{ONE_LINE_PURPOSE}}`: one sentence from question 2.
-- `{{WHY_IT_EXISTS}}`: the problem it kills, from question 2.
+- `{{WHY_IT_EXISTS}}`: the problem it solves, from question 2.
 - `{{DONE_CRITERIA}}`: question 3.
 - `{{OUT_OF_SCOPE}}`: the follow-up to question 3. If they named nothing, write "nothing ruled out yet".
 - `{{DEADLINE_OR_NONE}}`: question 4, or "none set".
