@@ -10,7 +10,11 @@ Every project gets the core. One profile goes on top, chosen by project type in 
   HANDOFF.md     the resume point: what just happened, what is next, open questions.
                  Updated at the end of every working session. This file is what lets a
                  brand-new chat window pick the project up cold.
-  CLAUDE.md      the Project Director charter, generated from DIRECTOR.md
+  CLAUDE.md      the Project Director charter, generated from DIRECTOR.md. Carries the
+                 standing brief any AI reads before touching the project: what this is,
+                 the goal and what is out of scope, the stack and how to run it, the
+                 decisions index, a map of the files, and external references. Dated at
+                 the top, kept under 200 lines
   .gitignore     secrets and junk, written before the first commit
 ```
 
